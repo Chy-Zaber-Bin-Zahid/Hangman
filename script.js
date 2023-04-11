@@ -1,15 +1,15 @@
 function check() {
   console.log(document.querySelector(".img").src);
-  if (document.querySelector(".img").src === "http://127.0.0.1:5500/background-empty-png.png") {
-    document.querySelector(".img").src = "http://127.0.0.1:5500/mistake-1.png";
-  } else if (document.querySelector(".img").src === "http://127.0.0.1:5500/mistake-1.png") {
-    document.querySelector(".img").src = "http://127.0.0.1:5500/mistake-2.png";
-  } else if (document.querySelector(".img").src === "http://127.0.0.1:5500/mistake-2.png") {
-    document.querySelector(".img").src = "http://127.0.0.1:5500/mistake-3.png";
-  } else if (document.querySelector(".img").src === "http://127.0.0.1:5500/mistake-3.png") {
-    document.querySelector(".img").src = "http://127.0.0.1:5500/mistake-4.png";
-  } else if (document.querySelector(".img").src === "http://127.0.0.1:5500/mistake-4.png") {
-    document.querySelector(".img").src = "http://127.0.0.1:5500/mistake-5.png";
+  if (document.querySelector(".img").src === "background-empty-png.png") {
+    document.querySelector(".img").src = "mistake-1.png";
+  } else if (document.querySelector(".img").src === "mistake-1.png") {
+    document.querySelector(".img").src = "mistake-2.png";
+  } else if (document.querySelector(".img").src === "mistake-2.png") {
+    document.querySelector(".img").src = "mistake-3.png";
+  } else if (document.querySelector(".img").src === "mistake-3.png") {
+    document.querySelector(".img").src = "mistake-4.png";
+  } else if (document.querySelector(".img").src === "mistake-4.png") {
+    document.querySelector(".img").src = "mistake-5.png";
   }
 }
 
