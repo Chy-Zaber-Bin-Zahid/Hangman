@@ -758,6 +758,7 @@ for (let i = 0; i < 1; i++) {
 }
 
 function set() {
+  let t = "";
   if (document.querySelector(".num").textContent === "0") {
     document.querySelector(".main-h1").textContent = "You Lose!";
     let buttons = document.querySelectorAll("button");
@@ -765,10 +766,14 @@ function set() {
     for (let i = 0; i < buttons.length; i++) {
       buttons[i].disabled = true;
     }
+    t = "lose";
     document.querySelector(".word").textContent = wordsArray[0];
   }
 
-  if (wordsArray[0] === document.querySelector(".word").textContent) {
+  if (
+    wordsArray[0] === document.querySelector(".word").textContent &&
+    t === ""
+  ) {
     document.querySelector(".main-h1").textContent = "You Won!";
     let buttons = document.querySelectorAll("button");
 
