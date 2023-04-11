@@ -28,7 +28,7 @@ body {
 }
 
 .hangman-main {
-  width: 70%;
+  max-width: 90rem;
   background-color: rgb(197, 197, 197);
   padding: 2rem;
   display: grid;

@@ -1,0 +1,55 @@
+/* Bello 916px (Smaller desktops) */
+@media (max-width: 916px) {
+  .hangman-main {
+    width: 90%;
+  }
+}
+
+/* Bello 696px (Smaller desktops) */
+@media (max-width: 696px) {
+  .hangman-main {
+    width: 95%;
+  }
+
+  html {
+    font-size: 40%;
+  }
+
+  .word-btn button {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 470px) {
+  .hangman-main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hang-img {
+    width: 60%;
+    height: 60%;
+  }
+
+  .hang-word{
+    width: 100%;
+  }
+
+  .word-btn button {
+    padding: 1.6rem;
+  }
+
+}
+
+@media (max-width: 362px) {
+  html {
+    font-size: 30%;
+  }
+
+  .word-btn button {
+    font-size: 1.4rem;
+  }
+}
