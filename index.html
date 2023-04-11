@@ -1,57 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hangman | Word Guessing Game!</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="media.css">
-</head>
-<body>
-  <section class="section-main">
-    <div class="hangman-main">
-      <a href="index.html" class="play">Play Again</a>
-      <h1 class="main-h1">Guess The Word!</h1>
-      <div class="hang-img"><img class="img" src="/background-empty-png.png" alt=""></div>
-      <div class="hang-word">
-        <h2 class="word"></h2>
-        <div class="word-btn">
-          <button class="btnA" onclick="btnA()">A</button>
-          <button class="btnB" onclick="btnB()">B</button>
-          <button class="btnC" onclick="btnC()">C</button>
-          <button class="btnD" onclick="btnD()">D</button>
-          <button class="btnE" onclick="btnE()">E</button>
-          <button class="btnF" onclick="btnF()">F</button>
-          <button class="btnG" onclick="btnG()">G</button>
-          <button class="btnH" onclick="btnH()">H</button>
-          <button class="btnI" onclick="btnI()">I</button>
-          <button class="btnJ" onclick="btnJ()">J</button>
-          <button class="btnK" onclick="btnK()">K</button>
-          <button class="btnL" onclick="btnL()">L</button>
-          <button class="btnM" onclick="btnM()">M</button>
-          <button class="btnN" onclick="btnN()">N</button>
-          <button class="btnO" onclick="btnO()">O</button>
-          <button class="btnP" onclick="btnP()">P</button>
-          <button class="btnQ" onclick="btnQ()">Q</button>
-          <button class="btnR" onclick="btnR()">R</button>
-          <button class="btnS" onclick="btnS()">S</button>
-          <button class="btnT" onclick="btnT()">T</button>
-          <button class="btnU" onclick="btnU()">U</button>
-          <button class="btnV" onclick="btnV()">V</button>
-          <button class="btnW" onclick="btnW()">W</button>
-          <button class="btnX" onclick="btnX()">X</button>
-          <button class="btnY" onclick="btnY()">Y</button>
-          <button class="btnZ" onclick="btnZ()">Z</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman | Word Guessing Game!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <section class="section-main">
+      <div class="hangman-main">
+        <a href="index.html" class="play">Play Again</a>
+        <h1 class="main-h1">Guess The Word!</h1>
+        <div class="hang-img">
+          <img class="img" src="background-empty-png.png" alt="" />
+        </div>
+        <div class="hang-word">
+          <h2 class="word"></h2>
+          <div class="word-btn">
+            <button class="btnA" onclick="btnA()">A</button>
+            <button class="btnB" onclick="btnB()">B</button>
+            <button class="btnC" onclick="btnC()">C</button>
+            <button class="btnD" onclick="btnD()">D</button>
+            <button class="btnE" onclick="btnE()">E</button>
+            <button class="btnF" onclick="btnF()">F</button>
+            <button class="btnG" onclick="btnG()">G</button>
+            <button class="btnH" onclick="btnH()">H</button>
+            <button class="btnI" onclick="btnI()">I</button>
+            <button class="btnJ" onclick="btnJ()">J</button>
+            <button class="btnK" onclick="btnK()">K</button>
+            <button class="btnL" onclick="btnL()">L</button>
+            <button class="btnM" onclick="btnM()">M</button>
+            <button class="btnN" onclick="btnN()">N</button>
+            <button class="btnO" onclick="btnO()">O</button>
+            <button class="btnP" onclick="btnP()">P</button>
+            <button class="btnQ" onclick="btnQ()">Q</button>
+            <button class="btnR" onclick="btnR()">R</button>
+            <button class="btnS" onclick="btnS()">S</button>
+            <button class="btnT" onclick="btnT()">T</button>
+            <button class="btnU" onclick="btnU()">U</button>
+            <button class="btnV" onclick="btnV()">V</button>
+            <button class="btnW" onclick="btnW()">W</button>
+            <button class="btnX" onclick="btnX()">X</button>
+            <button class="btnY" onclick="btnY()">Y</button>
+            <button class="btnZ" onclick="btnZ()">Z</button>
+          </div>
+        </div>
+        <div class="attempt">
+          <h2>Attemt Left: <span class="num">5</span></h2>
         </div>
       </div>
-      <div class="attempt">
-        <h2>Attemt Left: <span class="num">5</span></h2>
-      </div>
-    </div>
-  </section>
-  
+    </section>
 
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
