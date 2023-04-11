@@ -17,7 +17,7 @@ body {
 
 .section-main {
   height: 100vh;
-  background-image: url(/back.jpg);
+  background-image: url(back.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -89,7 +89,6 @@ body {
   padding: 0.8rem;
   font-weight: bold;
 }
-
 
 .attempt {
   grid-column-end: span 2;
