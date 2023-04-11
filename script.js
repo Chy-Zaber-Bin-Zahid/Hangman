@@ -1,14 +1,25 @@
 function check() {
-  if (document.querySelector(".img").src === "/background-empty-png.png") {
-    document.querySelector(".img").src = "/mistake-1.png";
-  } else if (document.querySelector(".img").src === "/mistake-1.png") {
-    document.querySelector(".img").src = "/mistake-2.png";
-  } else if (document.querySelector(".img").src === "/mistake-2.png") {
-    document.querySelector(".img").src = "/mistake-3.png";
-  } else if (document.querySelector(".img").src === "/mistake-3.png") {
-    document.querySelector(".img").src = "/mistake-4.png";
-  } else if (document.querySelector(".img").src === "/mistake-4.png") {
-    document.querySelector(".img").src = "/mistake-5.png";
+  if (
+    document.querySelector(".img").src ===
+    "https://chy-zaber-bin-zahid.github.io/background-empty-png.png"
+  ) {
+    document.querySelector(".img").src = "https://chy-zaber-bin-zahid.github.io/mistake-1.png";
+  } else if (
+    document.querySelector(".img").src === "https://chy-zaber-bin-zahid.github.io/mistake-1.png"
+  ) {
+    document.querySelector(".img").src = "https://chy-zaber-bin-zahid.github.io/mistake-2.png";
+  } else if (
+    document.querySelector(".img").src === "https://chy-zaber-bin-zahid.github.io/mistake-2.png"
+  ) {
+    document.querySelector(".img").src = "https://chy-zaber-bin-zahid.github.io/mistake-3.png";
+  } else if (
+    document.querySelector(".img").src === "https://chy-zaber-bin-zahid.github.io/mistake-3.png"
+  ) {
+    document.querySelector(".img").src = "https://chy-zaber-bin-zahid.github.io/mistake-4.png";
+  } else if (
+    document.querySelector(".img").src === "https://chy-zaber-bin-zahid.github.io/mistake-4.png"
+  ) {
+    document.querySelector(".img").src = "https://chy-zaber-bin-zahid.github.io/mistake-5.png";
   }
 }
 
